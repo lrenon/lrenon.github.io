@@ -37323,6 +37323,9 @@ blockquote {
 .u-header {
     background-image: url("images/banner.jpg");
     background-position: 50% 50%;
+}
+
+.u-header .u-sheet-1 {
     min-height: 360px;
 }
 
@@ -37330,7 +37333,7 @@ blockquote {
     animation-duration: 1000ms;
     background-image: none;
     font-size: 4.5rem;
-    margin: 58px 292px 0;
+    margin: 58px 212px 0;
 }
 
 .u-header .u-line-1 {
@@ -37341,7 +37344,7 @@ blockquote {
 
 .u-header .u-menu-1 {
     font-family: size-14;
-    margin: -1px auto 60px calc(((100% - 1140px) / 2) + 119px);
+    margin: -1px auto 0 119px;
 }
 
 .u-header .u-nav-1 {
@@ -37355,80 +37358,160 @@ blockquote {
     font-size: 1rem;
 }
 
+.u-header .u-social-icons-1 {
+    white-space: nowrap;
+    height: 41px;
+    min-height: 16px;
+    width: 94px;
+    min-width: 44px;
+    animation-duration: 2000ms;
+    margin: 98px auto 0 1023px;
+}
+
+.u-header .u-icon-1 {
+    height: 100%;
+}
+
+.u-header .u-icon-2 {
+    height: 100%;
+}
+
+.u-header .u-btn-1 {
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation-duration: 2000ms;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+    margin: -43px auto 22px 885px;
+}
+
 @media (max-width: 1199px) {
-    .u-header {
-        min-height: 297px;
+    .u-header .u-sheet-1 {
+        min-height: 406px;
     }
 
     .u-header .u-text-1 {
         width: 717px;
-        margin-right: calc(((100% - 1140px) / 2) + 212px);
-        margin-left: calc(((100% - 1140px) / 2) + 212px);
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .u-header .u-line-1 {
         width: 940px;
-        margin-left: calc(((100% - 1140px) / 2) + 100px);
+        margin-right: 1px;
+    }
+
+    .u-header .u-menu-1 {
+        margin-left: auto;
+    }
+
+    .u-header .u-social-icons-1 {
+        margin-top: 135px;
+        margin-left: 796px;
+    }
+
+    .u-header .u-btn-1 {
+        margin-top: -45px;
+        margin-bottom: 33px;
+        margin-left: 652px;
     }
 }
 
 @media (max-width: 991px) {
-    .u-header {
-        min-height: 268px;
+    .u-header .u-sheet-1 {
+        min-height: 424px;
+    }
+
+    .u-header .u-text-1 {
+        width: auto;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 
     .u-header .u-line-1 {
         width: 720px;
-        margin-left: calc(((100% - 1140px) / 2) + 210px);
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .u-header .u-menu-1 {
         margin-top: 13px;
-        margin-left: auto;
+    }
+
+    .u-header .u-social-icons-1 {
+        width: 94px;
+        margin-left: 387px;
+    }
+
+    .u-header .u-btn-1 {
+        margin-bottom: 40px;
+        margin-left: 239px;
     }
 }
 
 @media (max-width: 767px) {
-    .u-header {
-        min-height: 234px;
+    .u-header .u-sheet-1 {
+        min-height: 356px;
     }
 
     .u-header .u-text-1 {
         font-size: 3rem;
-        width: auto;
-        margin-left: calc(((100% - 1140px) / 2) + 280px);
-        margin-right: calc(((100% - 1140px) / 2) + 280px);
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     .u-header .u-line-1 {
         width: 540px;
-        margin-left: calc(((100% - 1140px) / 2) + 300px);
     }
 
     .u-header .u-menu-1 {
         margin-top: 12px;
     }
+
+    .u-header .u-social-icons-1 {
+        width: 94px;
+        margin-top: 103px;
+        margin-left: 297px;
+    }
+
+    .u-header .u-btn-1 {
+        margin-top: -43px;
+        margin-bottom: 37px;
+        margin-left: 149px;
+    }
 }
 
 @media (max-width: 575px) {
-    .u-header {
-        min-height: 220px;
+    .u-header .u-sheet-1 {
+        min-height: 301px;
     }
 
     .u-header .u-text-1 {
         font-size: 2.25rem;
-        margin-left: calc(((100% - 1140px) / 2) + 366px);
-        margin-right: calc(((100% - 1140px) / 2) + 366px);
+        margin-left: -11px;
+        margin-right: -11px;
     }
 
     .u-header .u-line-1 {
-        width: 340px;
-        margin-left: calc(((100% - 1140px) / 2) + 400px);
+        margin-top: 17px;
+        margin-right: initial;
+        margin-left: initial;
+        width: auto;
     }
 
     .u-header .u-menu-1 {
-        margin-top: 17px;
-        margin-bottom: 55px;
+        margin-top: 22px;
+    }
+
+    .u-header .u-social-icons-1 {
+        margin-top: 62px;
+        margin-right: 49px;
+        margin-left: auto;
+    }
+
+    .u-header .u-btn-1 {
+        margin: -45px 160px 34px auto;
     }
 }
 
@@ -37445,7 +37528,7 @@ blockquote {
 
 @media (max-width: 575px) {
     .u-footer .u-sheet-1 {
-        min-height: 68px;
+        min-height: 56px;
     }
 }
 
